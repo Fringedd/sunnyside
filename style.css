@@ -1,0 +1,575 @@
+body {
+  height: 100vh;
+  font-family: 'Barlow', sans-serif;
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 40px;
+}
+
+.img {
+  width: 140px;
+  float: left;
+  padding: 25px 15px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+.div {
+  position: relative;
+  left: 63%;
+  top: 20%;
+  transform: translateX(-50%);
+  height: 20rem;
+}
+
+header h1 {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  font-family: 'Fraunces', serif;
+  color: white;
+  font-size: 2.4rem;
+}
+.img-contain {
+  position: absolute;
+  bottom: 12%;
+  left: 35%;
+}
+
+header {
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 10%;
+
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+nav {
+  padding-top: 15px;
+  float: right;
+}
+
+#contact {
+  background-color: white;
+  text-align: center;
+  border-radius: 90px;
+}
+#contact a {
+  text-align: center;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+nav ul {
+  margin-top: auto;
+  padding: 0;
+  list-style: none;
+  margin-right: 3rem;
+}
+nav li {
+  display: inline-block;
+  color: white;
+  margin-left: 0px;
+  position: relative;
+
+  padding: 0.8rem;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+nav .hаmburger {
+  display: none;
+}
+
+nav .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+/*layout*/
+
+.flex1 {
+  display: flex;
+  width: 100%;
+}
+.fLeft1 {
+  padding: 7.2rem;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.fLeft1 h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 5%;
+}
+.fLeft1 p {
+  font-weight: 600;
+}
+
+.fLeft1 a {
+  text-decoration: none;
+  margin-top: 5%;
+  font-family: 'Fraunces', serif;
+  padding-bottom: 10px;
+  color: black;
+}
+
+#color::after {
+  background-color: hsl(51, 100%, 49%);
+  height: 10px;
+  width: 115px;
+  border-radius: 30px;
+  content: '';
+  display: block;
+  bottom: 0;
+  top: 10px;
+  opacity: 0.2;
+}
+
+.fRight1 {
+  padding: 7.2rem;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/desktop/image-transform.jpg);
+}
+
+.flex2 {
+  display: flex;
+  width: 100%;
+}
+
+.fLeft2 {
+  padding: 7.2rem;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/desktop/image-stand-out.jpg);
+}
+.fRight2 {
+  width: 50%;
+  padding: 7.2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.fRight2 h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 5%;
+}
+
+.fRight2 a {
+  text-decoration: none;
+  margin-top: 5%;
+  font-family: 'Fraunces', serif;
+  padding-bottom: 10px;
+  color: black;
+}
+.fRight2 p {
+  margin-bottom: 5%;
+}
+
+#color2::after {
+  background-color: hsl(7, 99%, 70%);
+  height: 10px;
+  width: 115px;
+  border-radius: 30px;
+  content: '';
+  display: block;
+  bottom: 0;
+  top: 10px;
+  opacity: 0.2;
+}
+
+.flex3 {
+  display: flex;
+  width: 100%;
+}
+
+.fRight3 {
+  width: 50%;
+  height: 380px;
+  display: flex;
+  padding-bottom: 2.5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/desktop/image-photography.jpg);
+}
+.fLeft3 {
+  width: 50%;
+  height: 380px;
+  display: flex;
+  padding-bottom: 2.5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+}
+
+.fRight3 h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 2%;
+  text-align: center;
+  color: hsl(198, 62%, 26%);
+}
+
+.fLeft3 h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 2%;
+  text-align: center;
+  color: hsl(167, 40%, 24%);
+}
+
+.fRight3 p {
+  text-align: center;
+  font-size: 12px;
+  color: hsl(198, 62%, 26%);
+}
+.fLeft3 p {
+  text-align: center;
+  font-size: 12px;
+  color: hsl(167, 40%, 24%);
+}
+
+.flex4 {
+  text-align: center;
+  width: 100%;
+}
+
+.flex4 h4 {
+  padding-top: 5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  color: hsl(210, 4%, 67%);
+}
+
+.flex4 li {
+  list-style: none;
+  width: 31%;
+}
+
+.flex4 ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 img {
+  width: 70px;
+  margin-bottom: 12%;
+  border-radius: 50px;
+}
+.container2 {
+  padding: 7rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.container2 p {
+  margin-bottom: 5rem;
+  font-size: 15px;
+}
+
+.boldy-P {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+}
+
+.gal {
+  width: 25%;
+  padding: 8rem;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#one {
+  background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+}
+#two {
+  background-image: url(./images/desktop/image-gallery-orange.jpg);
+}
+#three {
+  background-image: url(./images/desktop/image-gallery-cone.jpg);
+}
+#four {
+  background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+}
+
+footer {
+  background-color: #54ab9a;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.about {
+  display: flex;
+  width: 40%;
+  height: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about h1 {
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+}
+
+.text-contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.text-contact a {
+  text-decoration: none;
+  color: #296054;
+}
+.img-container3 {
+  width: 200px;
+  height: 70px;
+  filter: invert(77%) sepia(8%) saturate(3167%) hue-rotate(118deg)
+    brightness(100%) contrast(90%);
+
+  margin-bottom: 10%;
+}
+.img-container3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.icons {
+  margin-top: 15%;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    width: 375px;
+    height: 800px;
+  }
+  header {
+    background-image: url(./images/mobile/image-header.jpg);
+    width: 100%;
+
+    height: 30rem;
+  }
+  .hide {
+    display: hide;
+  }
+
+  .div {
+    width: 100%;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    transform: translateX(-50%);
+    height: 20rem;
+  }
+  header h1 {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-size: 2.1rem;
+    width: 400px;
+  }
+  .img-contain {
+    position: absolute;
+    bottom: 12%;
+    left: 65%;
+  }
+  .nav-menu {
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: white;
+    padding: 3.5rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hidden {
+    display: none;
+  }
+  .nav-menu a {
+    color: black;
+  }
+  nav .hаmburger {
+    display: block;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  #contact {
+    background-color: hsl(51, 100%, 49%);
+    text-align: center;
+    border-radius: 90px;
+  }
+  #contact a {
+    text-align: center;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .flex1 {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .flex2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .flex3 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .fRight1 {
+    background-image: url(./images/mobile/image-transform.jpg);
+    padding: 5.9rem;
+    padding-bottom: 10rem;
+  }
+  .fLeft2 {
+    background-image: url(./images/mobile/image-stand-out.jpg);
+    padding: 5.9rem;
+    padding-bottom: 10rem;
+  }
+
+  .fLeft1 {
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fRight2 {
+    padding: 2rem;
+    display: flex;
+    text-align: center;
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fRight3 {
+    background-image: url(./images/mobile/image-photography.jpg);
+    padding: 5.9rem;
+    padding-bottom: 7rem;
+  }
+  .fLeft3 {
+    background-image: url(./images/mobile/image-graphic-design.jpg);
+    padding: 5.9rem;
+    padding-bottom: 7rem;
+  }
+  .container2 {
+    padding: 4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .container2 ul {
+    text-align: center;
+    flex-direction: column;
+  }
+  .flex4 li {
+    list-style: none;
+    width: 100%;
+  }
+  .container2 p {
+    margin-bottom: 2rem;
+    font-size: 15px;
+  }
+  .divi {
+    display: flex;
+  }
+  .divi2 {
+    display: flex;
+  }
+  .gallery {
+    flex-direction: column;
+  }
+  #one {
+    background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+  }
+  #two {
+    background-image: url(./images/mobile/image-gallery-orange.jpg);
+  }
+  #three {
+    background-image: url(./images/mobile/image-gallery-cone.jpg);
+  }
+  #four {
+    background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+  }
+  .gal {
+    padding: 2rem;
+    width: 50%;
+  }
+}
