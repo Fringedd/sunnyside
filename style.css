@@ -12,7 +12,9 @@ body {
 .container {
   height: 40px;
 }
-
+.hidden{
+  display:block;
+}
 .img {
   width: 140px;
   float: left;
